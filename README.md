@@ -34,7 +34,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Markantonatou, Stella; Vak, Socrates
+#Contributors: Markantonatou, Stella; Vak, Socrates
 Contributing: here
 Contact: stiliani.markantonatou@gmail.com
 ===============================================================================
