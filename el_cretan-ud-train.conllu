@@ -2808,7 +2808,7 @@
 3	τηνε	εγώ	PRON	PnPe	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	MGloss=her-euphonic|MSeg=την-ε
 4	κάμεις	κάμω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 5	,	,	PUNCT	PUNCT	_	8	punct	_	PunctType=Comm
-6	απού	που	CCONJ	AdBa	ExtPos=CCONJ|PronType=Rel	8	cc	_	_
+6	απού	που	PRON	AdBa	ExtPos=CCONJ|PronType=Rel	8	cc	_	_
 7	να	να	AUX	PtSj	_	6	fixed	_	_
 8	'χεις	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
 9	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
