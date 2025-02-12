@@ -1,0 +1,583 @@
+# sent_id = 690
+# text = Έτσι , με τούτα και με τ' άλλα , φτάξαμε σ την κορφή , σ το εκκλησάκι του Τίμιου Σταυρού .
+1	Έτσι	έτσι	ADV	OPUNCT	_	10	advmod	_	_
+2	,	,	PUNCT	OPUNCT	_	4	punct	_	PunctType=Comm
+3	με	με	ADP	AsPpSp	_	4	case	_	_
+4	τούτα	τούτος	ADJ	NoCm	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	_
+5	και	και	CCONJ	CjCo	_	8	cc	_	_
+6	με	με	ADP	AsPpSp	_	8	case	_	_
+7	τ'	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	8	det	_	_
+8	άλλα	άλλος	DET	PnId	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	4	conj	_	_
+9	,	,	PUNCT	PUNCT	_	4	punct	_	PunctType=Comm
+10	φτάξαμε	φτάνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	σ	σε	ADP	AsPpSp	_	13	case	_	_
+12	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	κορφή	κορφή	NOUN	PUNCT	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+14	,	,	PUNCT	PUNCT	_	17	punct	_	PunctType=Comm
+15	σ	σε	ADP	AsPpSp	_	17	case	_	_
+16	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	εκκλησάκι	εκκλησά	NOUN	NoCm	Case=Acc|Degree=Dim|Gender=Neut|Number=Sing	13	conj	_	_
+18	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Τίμιου	Τίμιος	PROPN	AjBa	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	Σταυρού	Σταυρός	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	19	flat	_	_
+21	.	.	PUNCT	PTERMP	_	10	punct	_	PunctType=Peri
+
+# sent_id = 445
+# text = Να δεις είντα 'φτιαξε ο Βελζεβούλης και να πεις.
+1	Να	να	AUX	PtSj	_	2	aux	_	_
+2	δεις	βλέπω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+3	είντα	είντα	PRON	AdBa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obj	_	_
+4	'φτιαξε	φτιάχνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+5	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Βελζεβούλης	Βελζεβούλης	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	και	και	CCONJ	CjCo	_	9	cc	_	_
+8	να	να	AUX	PtSj	_	9	aux	_	_
+9	πεις	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	PTERMP	_	2	punct	_	PunctType=Peri
+
+# sent_id = 95
+# text = Σαν να μη μου τα λες καλά.
+1	Σαν	σαν	ADV	AdBa	ExtPos=ADV	6	advmod	_	_
+2	να	να	AUX	PtSj	_	1	fixed	_	_
+3	μη	μην	PART	PtNg	Polarity=Neg	6	advmod	_	_
+4	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+5	τα	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+6	λες	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	καλά	καλά	ADV	AdBa	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	PTERMP	_	6	punct	_	PunctType=Peri
+
+# sent_id = 106
+# text = Το αδιανόητο είναι πως μου λες να 'ρθω να τηνε θάψω.
+1	Το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	αδιανόητο	αδιανόητος	ADJ	AjBa	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+3	είναι	είμαι	AUX	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	cop	_	_
+4	πως	πως	SCONJ	CjSb	_	6	mark	_	_
+5	μου	εγώ	PRON	PnPe	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	λες	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	csubj	_	_
+7	να	να	SCONJ	PtSj	_	8	mark	_	_
+8	'ρθω	έρχομαι	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Pass	6	ccomp	_	_
+9	να	να	SCONJ	PtSj	_	11	mark	_	_
+10	τηνε	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=2|PronType=Prs	11	obj	_	MGloss=her-euphonic|MSeg=την-ε
+11	θάψω	θάβω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	8	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	PTERMP	_	2	punct	_	PunctType=Comm
+
+# sent_id = 1037_1038
+# text = Κι όταν κιαμιά βολά το φέρνουνε κουβέντα και θυμούνταν τα παλιά, η Μαρουλιώ ήλεγε του Μιχαλιού: «Να ο πλούτος μας».
+1	Κι	και	CCONJ	CjCo	_	6	cc	_	_
+2	όταν	όταν	SCONJ	CjSb	_	6	mark	_	_
+3	κιαμιά	κιανείς	DET	AjBa	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	4	det	_	_
+4	βολά	βολά	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	_
+5	το	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	φέρνουνε	φερνώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	_
+7	κουβέντα	κουβέντα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	6	xcomp	_	_
+8	και	και	CCONJ	CjCo	_	9	cc	_	_
+9	θυμούνταν	θυμούμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	6	conj	_	_
+10	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
+11	παλιά	παλιός	ADJ	AdBa	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	9	punct	_	PunctType=Comm
+13	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Μαρουλιώ	Μαρουλιώ	PROPN	NoPr	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+15	ήλεγε	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Μιχαλιού	Μιχαλιός	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	15	iobj	_	SpaceAfter=No
+18	:	:	PUNCT	PTERM	_	17	punct	_	PunctType=Colo
+19	«	«	PUNCT	OPUNCT	_	22	punct	_	PunctType=Quot|SpaceAfter=No
+20	Να	να	PART	PtSj	_	22	discourse	_	_
+21	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	πλούτος	πλούτος	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Sing	15	ccomp	_	_
+23	μας	εγώ	PRON	PnPo	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	nmod	_	SpaceAfter=No
+24	»	»	PUNCT	CPUNCT	_	15	punct	_	PunctType=Quot|SpaceAfter=No
+25	.	.	PUNCT	PTERMP	_	15	punct	_	PunctType=Peri
+
+# sent_id = 791
+# text = Άσε τα κόλπα, μάστορα, κι ακλούθα μου.
+1	Άσε	αφήνω	VERB	VbMn	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
+3	κόλπα	κόλπο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	5	punct	_	PunctType=Comm
+5	μάστορα	μάστορας	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	5	punct	_	PunctType=Comm
+7	κι	και	CCONJ	CjCo	_	8	cc	_	_
+8	ακλούθα	ακλουθώ	VERB	VbMn	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+9	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	PTERMP	_	1	punct	_	PunctType=Peri
+
+# sent_id = 321_split1_split2
+# text = Κενώνει κι αυτή και , πράγμα παράξενο , σ το πιάτο τζη 'τονε φακή ενώ σ του άντρα τζη και του διακονιάρη ήτονε λαγός .
+1	Κενώνει	κενώνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	κι	και	CCONJ	CjCo	_	3	cc	_	_
+3	αυτή	αυτός	DET	PnDm	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	1	nsubj	_	_
+4	και	και	CCONJ	CjCo	_	11	cc	_	_
+5	,	,	PUNCT	CjCo	_	6	punct	_	PunctType=Comm
+6	πράγμα	πράγμα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	11	parataxis	_	_
+7	παράξενο	παράξενος	ADJ	PUNCT	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	_
+8	,	,	PUNCT	PUNCT	_	6	punct	_	PunctType=Comm
+9	σ	σε	ADP	AsPpSp	_	11	case	_	_
+10	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	πιάτο	πιάτο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	1	conj	_	_
+12	τζη	εγώ	PRON	NoCm	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod	_	Voicing=Voiced
+13	'τονε	είμαι	AUX	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	11	cop	_	_
+14	φακή	φακή	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+15	ενώ	ενώ	CCONJ	CjSb	_	18	cc	_	_
+16	σ	σε	ADP	AsPpSp	_	18	orphan	_	_
+17	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	άντρα	άντρας	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	11	conj	_	_
+19	τζη	εγώ	PRON	ABBR	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod	_	Voicing=Voiced
+20	και	και	CCONJ	CjCo	_	22	cc	_	_
+21	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	διακονιάρη	διακονιάρης	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	18	conj	_	_
+23	ήτονε	είμαι	AUX	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	18	cop	_	_
+24	λαγός	λαγός	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+25	.	.	PUNCT	PTERMP	_	1	punct	_	PunctType=Peri
+
+# sent_id = 602
+# text = Φανούρη, πού είναι το δεκάρικο που 'βαλε ο Προκόπης σ τη βατάλα του καλόγερου;
+1	Φανούρη	Φανούρης	PROPN	NoPr	Case=Voc|Gender=Masc|Number=Sing	4	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	PunctType=Comm
+3	πού	πού	ADV	AdBa	_	4	advmod	_	_
+4	είναι	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	δεκάρικο	δεκάρικος	ADJ	AjBa	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+7	που	που	PRON	PnRe	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	8	obj	_	_
+8	'βαλε	βάνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+9	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Προκόπης	Προκόπης	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	σ	σε	ADP	AsPpSp	_	13	case	_	_
+12	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	βατάλα	βατάλα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+14	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	καλόγερου	καλόγερος	NOUN	AjCp	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+16	;	;	PUNCT	PTERM	_	4	punct	_	PunctType=Qest
+
+# sent_id = 858
+# text = Ήρθε λοιπόν ο καιρός και παντρεύτηκε ο Στελιανός.
+1	Ήρθε	έρχομαι	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	λοιπόν	λοιπόν	INTJ	AdBa	Polarity=Pos	1	discourse	_	_
+3	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	καιρός	καιρός	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+5	και	και	CCONJ	CjCo	_	6	cc	_	_
+6	παντρεύτηκε	παντρεύω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	1	conj	_	_
+7	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Στελιανός	Στελιανός	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	PTERMP	_	1	punct	_	PunctType=Peri
+
+# sent_id = 94
+# text = Μα τα έχνη δεν τα βαφτίζουνε.
+1	Μα	μα	CCONJ	CjCo	_	6	cc	_	_
+2	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
+3	έχνη	έχνος	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+4	δεν	δεν	PART	PtNg	Polarity=Neg	6	advmod	_	_
+5	τα	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	6	expl	_	_
+6	βαφτίζουνε	βαφτιζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PTERMP	_	6	punct	_	PunctType=Peri
+
+# sent_id = 543
+# text = Κι ως παίζανε , λέγανε και τι δεν λέγανε.
+1	Κι	και	CCONJ	CjCo	_	3	cc	_	_
+2	ως	ως	ADV	AdBa	PronType=Rel	3	advmod	_	_
+3	παίζανε	παίζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+4	,	,	PUNCT	VbMn	_	3	punct	_	PunctType=Comm
+5	λέγανε	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	και	και	CCONJ	CjCo	_	9	cc	_	_
+7	τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	9	obj	_	_
+8	δεν	δεν	PART	PtNg	Polarity=Neg	9	advmod	_	_
+9	λέγανε	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	PTERMP	_	5	punct	_	PunctType=Peri
+
+# sent_id = 960
+# text = Λέω , που λες , να πάω να βρω το Στελιανάρο .
+1	Λέω	Λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	,	,	PUNCT	VbMn	_	4	punct	_	PunctType=Comm
+3	που	που	ADV	CjSb	PronType=Rel	4	advmod	_	_
+4	λες	λες	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+5	,	,	PUNCT	VbMn	_	4	punct	_	PunctType=Comm
+6	να	να	SCONJ	PtSj	_	7	mark	_	_
+7	πάω	πηγαίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+8	να	να	SCONJ	PtSj	_	9	mark	_	_
+9	βρω	βρίσκω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	7	advcl	_	_
+10	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Στελιανάρο	Στελιανός	PROPN	NoPr	Case=Acc|Degree=Aug|Gender=Masc|Number=Sing	9	obj	_	_
+12	.	.	PUNCT	PTERMP	_	1	punct	_	PunctType=Peri
+
+# sent_id = 924
+# text = «Γιάντα 'δα, Νικολή, μιλείς ετσά σ τη κουμπάρα μας» τονε ρωτά το Γαρεφαλιό.
+1	«	«	PUNCT	OPUNCT	_	7	punct	_	PunctType=Quot|SpaceAfter=No
+2	Γιάντα	γιάντα	ADV	AdBa	PronType=Int	7	advmod	_	_
+3	'δα	εδά	ADV	AdBa	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	5	punct	_	PunctType=Comm
+5	Νικολή	Νικολής	PROPN	AjBa	Case=Voc|Gender=Masc|Number=Sing	7	vocative	_	SpaceAfter=No
+6	,	,	PUNCT	AjBa	_	5	punct	_	PunctType=Comm
+7	μιλείς	μιλώ	VERB	NoCm	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	ετσά	ετσά	ADV	AdBa	_	7	advmod	_	_
+9	σ	σε	ADP	AsPpSp	_	11	case	_	_
+10	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	κουμπάρα	κουμπάρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+12	μας	εγώ	PRON	PnPo	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod	_	SpaceAfter=No
+13	»	»	PUNCT	CPUNCT	_	7	punct	_	PunctType=Quot
+14	τονε	εγώ	PRON	PnPe	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	MGloss=him-euphonic|MSeg=τον-ε
+15	ρωτά	ρωτώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+16	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Γαρεφαλιό	Γαρεφαλιά	PROPN	NoCm	Case=Nom|Degree=Dim|Gender=Neut|Number=Sing	15	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	PTERMP	_	7	punct	_	PunctType=Peri
+
+# sent_id = 1310
+# text = Και πρωί και βράδυ να αρμέγει τσ' αίγες η Πινελιά.
+1	Και	και	CCONJ	CjCo	_	2	cc	_	_
+2	πρωί	πρωί	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+3	και	και	CCONJ	CjCo	_	4	cc	_	_
+4	βράδυ	βράδυ	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	2	conj	_	_
+5	να	να	AUX	PtSj	_	6	aux	_	_
+6	αρμέγει	αρμέγω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
+7	τσ'	o	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	αίγες	αίγα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+9	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Πινελιά	Πινελιά	PROPN	NoPr	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	PTERMP	_	6	punct	_	PunctType=Peri
+
+# sent_id = 743
+# text = Κάθε φορά που την άρμεγε του 'χυνε το γάλα με τα πόδια τζη.
+1	Κάθε	κάθε	DET	PnId	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	2	det	_	_
+2	φορά	φορά	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+3	που	που	ADV	PnRe	PronType=Rel	5	advmod	_	_
+4	την	εγώ	PRON	PnPe	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	άρμεγε	αρμέγω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+6	του	εγώ	PRON	PnPe	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+7	'χυνε	χύνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	γάλα	γάλα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+10	με	με	ADP	AsPpSp	_	12	case	_	_
+11	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
+12	πόδια	πόδι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	7	obl	_	_
+13	τζη	εγώ	PRON	AdBa	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No|Voicing=Voiced
+14	.	.	PUNCT	PTERMP	_	7	punct	_	PunctType=Peri
+
+# sent_id = 1329
+# text = Τ' αγαπημένα μας το χωστό , που τρυπώναμε σ τ' αποπίθαρα κι όπου αλλού βάλει ο μυαλός τ' ανθρώπου , οι αμάδες που τρυπούσαμε τσι κεφαλές μας και βάναμε ύστερα καβαλίνες κι ό,τι άλλες γιατρικουλιές , το ζυγωτό που το στρώναμε σ τ' ατζιρίτι και έβγαινε η γλώσσα μας δυο πιθαμές , καλή ώρα , σαν του σκύλου μας που τρώει και κοιμάται ή σαν και μερικούς που περνούν ζωή σκύλινη κι ας κάνουν τσοι παντέρμους και τσοι κατεχιάρηδες .
+1	Τ'	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+2	αγαπημένα	αγαπημένος	ADJ	VbMn	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
+3	μας	εγώ	PRON	PnPo	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod	_	_
+4	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	χωστό	χωστό	NOUN	AjBa	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+6	,	,	PUNCT	PUNCT	_	8	punct	_	PunctType=Comm
+7	που	που	ADV	PnRe	PronType=Rel	8	advmod	_	_
+8	τρυπώναμε	τρυπώνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	σ	σε	ADP	AsPpSp	_	11	case	_	_
+10	τ'	ο	DET	AsPpSp	Case=Acc|Gender=Neut|Number=Plur	11	det	_	_
+11	αποπίθαρα	απόπιθαρα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_
+12	κι	και	CCONJ	CjCo	_	15	cc	_	_
+13	όπου	όπου	ADV	PnRi	PronType=Rel	15	advmod	_	_
+14	αλλού	αλλού	ADV	AdBa	_	15	advmod	_	_
+15	βάλει	βάνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	conj	_	_
+16	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	μυαλός	μυαλός	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+18	τ'	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	ανθρώπου	άνθρωπος	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	,	,	PUNCT	PUNCT	_	15	punct	_	PunctType=Comm
+21	οι	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	αμάδες	αμάδες	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	_
+23	που	που	ADV	PnRe	PronType=Rel	24	advmod	_	_
+24	τρυπούσαμε	τρυπώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
+25	τσι	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	κεφαλές	κεφαλή	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	24	obj	_	_
+27	μας	εγώ	PRON	PnPo	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	nmod	_	_
+28	και	και	CCONJ	CjCo	_	29	cc	_	_
+29	βάναμε	βάνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	24	conj	_	_
+30	ύστερα	ύστερα	ADV	AdBa	_	29	advmod	_	_
+31	καβαλίνες	καβάλινα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	29	obj	_	_
+32	κι	και	CCONJ	CjCo	_	35	cc	_	_
+33	ό,τι	ό,τι	DET	PnRi	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	35	det	_	_
+34	άλλες	άλλος	DET	PnId	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	35	det	_	_
+35	γιατρικουλιές	γιατρικουλιά	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	31	conj	_	_
+36	,	,	PUNCT	PUNCT	_	38	punct	_	PunctType=Comm
+37	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	38	det	_	_
+38	ζυγωτό	ζυγωτό	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	5	conj	_	_
+39	που	που	ADV	PnRe	PronType=Rel	41	advmod	_	_
+40	το	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	41	obj	_	_
+41	στρώναμε	στρώνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	38	acl:relcl	_	_
+42	σ	σ	ADP	AsPpSp	_	44	case	_	_
+43	τ'	ο	DET	AsPpSp	Case=Acc|Gender=Neut|Number=Sing|PronType=Art	44	det	_	_
+44	ατζιρίτι	ατζιρίτι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	41	obl	_	_
+45	και	και	CCONJ	CjCo	_	46	cc	_	_
+46	έβγαινε	βγαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	41	conj	_	_
+47	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	γλώσσα	γλώσσα	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	46	nsubj	_	_
+49	μας	εγώ	PRON	PnPo	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	48	nmod	_	_
+50	δυο	δύο	NUM	NmCd	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	51	nummod	_	_
+51	πιθαμές	πιθαμή	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	46	obl	_	_
+52	,	,	PUNCT	PUNCT	_	54	punct	_	PunctType=Comm
+53	καλή	καλός	ADJ	AjBa	Case=Nom|Gender=Fem|Number=Sing	54	amod	_	_
+54	ώρα	ώρα	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	46	parataxis	_	_
+55	,	,	PUNCT	NoCm	_	54	punct	_	PunctType=Comm
+56	σαν	σαν	ADV	AdBa	_	58	orphan	_	_
+57	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	σκύλου	σκύλος	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	46	obl	_	_
+59	μας	εγώ	PRON	PnPo	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	58	nmod	_	_
+60	που	που	PRON	PnRe	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	61	nsubj	_	_
+61	τρώει	τρώγω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	58	acl:relcl	_	_
+62	και	και	CCONJ	CjCo	_	63	cc	_	_
+63	κοιμάται	κοιμάμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	61	conj	_	_
+64	ή	ή	CCONJ	CjCo	_	67	cc	_	_
+65	σαν	σαν	ADV	AdBa	_	67	case	_	_
+66	και	και	CCONJ	CjCo	_	67	cc	_	_
+67	μερικούς	μερικός	DET	PnId	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	58	conj	_	_
+68	που	που	PRON	PnRe	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	69	nsubj	_	_
+69	περνούν	περνώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	67	acl:relcl	_	_
+70	ζωή	ζωή	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	69	obj	_	_
+71	σκύλινη	σκύλινος	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	70	amod	_	_
+72	κι	και	CCONJ	CjCo	_	74	cc	_	_
+73	ας	ας	AUX	PtOt	_	74	aux	_	_
+74	κάνουν	κάνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	69	conj	_	_
+75	τσοι	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	76	det	_	_
+76	παντέρμους	παντέρμος	ADJ	NoCm	Case=Acc|Gender=Masc|Number=Plur	74	obj	_	_
+77	και	και	CCONJ	CjCo	_	79	cc	_	_
+78	τσοι	ο	DET	VbMn	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	79	det	_	_
+79	κατεχιάρηδες	κατεχιάρης	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	76	conj	_	_
+80	.	.	PUNCT	PTERMP	_	2	punct	_	PunctType=Peri
+
+# sent_id = 663
+# text = Τα δίκαια μεσάνυχτα το Μελπονιό, που είχε ρόδα σ τα μάγουλα κι ήταν όλο λάβρα και καημό, πήρε την κνησάρα, την εγέμισε άθο και την εψιλοκοσκίνιζε κάτω από την καρέκλα τζη.
+1	Τα	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
+2	δίκαια	δίκαιος	ADJ	NoCm	Case=Nom|Gender=Neut|Number=Plur	3	amod	_	_
+3	μεσάνυχτα	μεσάνυχτα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Plur	20	obl	_	_
+4	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Μελπονιό	Μελπομένη	PROPN	VbMn	Case=Nom|Degree=Dim|Gender=Neut|Number=Sing	20	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	8	punct	_	PunctType=Comm
+7	που	που	PRON	PnRe	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	8	nsubj	_	_
+8	είχε	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	ρόδα	ρόδο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	_
+10	σ	σ	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	12	case	_	_
+11	τα	τα	DET	NoCm	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
+12	μάγουλα	μάγουλο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_
+13	κι	και	CCONJ	CjCo	_	15	cc	_	_
+14	ήταν	είμαι	AUX	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	15	cop	_	_
+15	όλο	όλος	DET	AjBa	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	8	conj	_	_
+16	λάβρα	λάβρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
+17	και	και	CCONJ	CjCo	_	18	cc	_	_
+18	καημό	καημός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	20	punct	_	PunctType=Comm
+20	πήρε	παίρνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+21	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	κνησάρα	κνησάρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	25	punct	_	PunctType=Comm
+24	την	εγώ	PRON	PnPe	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+25	εγέμισε	γεμίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	_	_
+26	άθο	άθος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	25	iobj	_	_
+27	και	και	CCONJ	CjCo	_	29	cc	_	_
+28	την	εγώ	PRON	PnPe	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+29	εψιλοκοσκίνιζε	ψιλοκοσκινίζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	_	_
+30	κάτω	κάτω	ADV	AdBa	ExtPos=ADP	33	case	_	_
+31	από	από	ADP	AsPpSp	_	30	fixed	_	_
+32	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	καρέκλα	καρέκλα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	29	obl	_	_
+34	τζη	εγώ	PRON	NoCm	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	nmod	_	SpaceAfter=No|Voicing=Voiced
+35	.	.	PUNCT	PTERMP	_	20	punct	_	PunctType=Peri
+
+# sent_id = 585
+# text = Πήγε πρώτα ο Προκόπης , είπε τα κρίματά ντου , αλάφρωσε .
+1	Πήγε	πηγαίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	πρώτα	πρώτα	ADV	AdBa	_	1	advmod	_	_
+3	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Προκόπης	Προκόπης	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+5	,	,	PUNCT	PUNCT	_	6	punct	_	PunctType=Comm
+6	είπε	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+7	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	8	det	_	_
+8	κρίματά	κρίμα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+9	ντου	εγώ	PRON	CPUNCT	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod	_	Voicing=Voiced
+10	,	,	PUNCT	PUNCT	_	11	punct	_	PunctType=Comm
+11	αλάφρωσε	αλαφρώνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+12	.	.	PUNCT	PTERMP	_	1	punct	_	PunctType=Peri
+
+# sent_id = 597
+# text = Ύστερα πήγα κι εγώ , είπα τα κρίματά μου .
+1	Ύστερα	ύστερα	ADV	AdBa	_	2	advmod	_	_
+2	πήγα	πηγαίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	κι	και	CCONJ	CjCo	_	4	cc	_	_
+4	εγώ	εγώ	PRON	NoCm	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+5	,	,	PUNCT	NoCm	_	6	punct	_	PunctType=Comm
+6	είπα	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+7	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	8	det	_	_
+8	κρίματά	κρίμα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+9	μου	εγώ	PRON	PnPo	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod	_	_
+10	.	.	PUNCT	PTERMP	_	2	punct	_	PunctType=Peri
+
+# sent_id = 1151
+# text = Γροικά την τραβάγια η γυναίκα ντου και σ το χωριό μου λένε : « όντε 'σούσαν την αχλάδα , όσοι πρόλαβαν εφάγαν » .
+1	Γροικά	γροικώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	τραβάγια	τραβάγια	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	γυναίκα	γυναίκα	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+6	ντου	εγώ	PRON	RgFwTr	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod	_	Voicing=Voiced
+7	και	και	CCONJ	CjCo	_	12	cc	_	_
+8	σ	σε	ADP	AsPpSp	_	10	case	_	_
+9	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	χωριό	χωριό	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
+11	μου	εγώ	PRON	PnPo	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod	_	_
+12	λένε	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+13	:	:	PUNCT	PTERM	_	12	punct	_	PunctType=Colo
+14	«	«	PUNCT	OPUNCT	_	22	punct	_	PunctType=Quot
+15	όντε	όντε	SCONJ	NoCm	_	16	mark	_	_
+16	'σούσαν	σείω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	21	advcl	_	_
+17	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	αχλάδα	αχλάδα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+19	,	,	PUNCT	PUNCT	_	16	punct	_	PunctType=Comm
+20	όσοι	όσος	DET	PnRi	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	21	nsubj	_	_
+21	πρόλαβαν	προλαβαίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	csubj	_	_
+22	εφάγαν	τρώγω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	ccomp	_	_
+23	»	»	PUNCT	CPUNCT	_	22	punct	_	PunctType=Quot
+24	.	.	PUNCT	PTERMP	_	1	punct	_	PunctType=Peri
+
+# sent_id = 438
+# text = Πώς το λένε έτονα που σάζεις;
+1	Πώς	πώς	ADV	AdBa	PronType=Int	3	advmod	_	_
+2	το	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+3	λένε	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	έτονα	ετούτος	PRON	AdBa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	_
+5	που	που	PRON	PnRe	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	6	obj	_	_
+6	σάζεις	σάζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	SpaceAfter=No
+7	;	;	PUNCT	PTERM	_	3	punct	_	PunctType=Qest
+
+# sent_id = 1111_1112
+# text = Μπαίνουνε μέσα , μυρίζουν τον αέρα και λέει ο μεσακός : « ανθρώπινη μυρωδιά γροικώ » .
+1	Μπαίνουνε	μπαινώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	μέσα	μέσα	ADV	AdBa	_	1	advmod	_	_
+3	,	,	PUNCT	PUNCT	_	4	punct	_	PunctType=Comm
+4	μυρίζουν	μυρίζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+5	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	αέρα	αέρας	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	και	και	CCONJ	CjCo	_	8	cc	_	_
+8	λέει	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+9	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	μεσακός	μεσακός	ADJ	AjBa	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	:	:	PUNCT	PTERM	_	10	punct	_	PunctType=Colo
+12	«	«	PUNCT	OPUNCT	_	15	punct	_	PunctType=Quot
+13	ανθρώπινη	ανθρώπινος	ADJ	AjBa	Case=Nom|Gender=Fem|Number=Sing	14	amod	_	_
+14	μυρωδιά	μυρωδιά	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	15	obj	_	_
+15	γροικώ	γροικώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	_
+16	»	»	PUNCT	CPUNCT	_	15	punct	_	PunctType=Quot
+17	.	.	PUNCT	PTERMP	_	1	punct	_	PunctType=Peri
+
+# sent_id = 146
+# text = Απού ο πόνος μου είναι μεγάλος και γροικώ να τροζαθώ.
+1	Απού	απού	ADV	AdBa	_	6	advmod	_	_
+2	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	πόνος	πόνος	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	μου	εγώ	PRON	PnPo	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod	_	_
+5	είναι	είμαι	AUX	VbMn	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	_
+6	μεγάλος	μεγάλος	ADJ	AjBa	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+7	και	και	CCONJ	CjCo	_	8	cc	_	_
+8	γροικώ	γροικώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+9	να	να	SCONJ	PtSj	_	10	mark	_	_
+10	τροζαθώ	τροζαίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Pass	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	PTERMP	_	6	punct	_	PunctType=Peri
+
+# sent_id = 1159
+# text = Και του λαγού το γάλα σ το τραπέζι ντως.
+1	Και	και	CCONJ	CjCo	_	3	cc	_	_
+2	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	λαγού	λαγός	NOUN	AjBa	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+4	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	γάλα	γάλα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+6	σ	σε	ADP	AsPpSp	_	8	case	_	_
+7	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	τραπέζι	τραπέζι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	_
+9	ντως	εγώ	PRON	NoPr	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	nmod	_	SpaceAfter=No|Voicing=Voiced
+10	.	.	PUNCT	PTERMP	_	5	punct	_	PunctType=Peri
+
+# sent_id = 27
+# text = Μονέδα ήκοβγε ο Ξηνταβελόνης ο Νικολάρος μας.
+1	Μονέδα	μονέδα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	mwe=1
+2	ήκοβγε	κόβγω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	mwe=1:VID
+3	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Ξηνταβελόνης	Ξηνταβελόνης	PROPN	NoCm	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Νικολάρος	Νικολής	PROPN	NoPr	Case=Nom|Degree=Aug|Gender=Masc|Number=Sing	4	appos	_	_
+7	μας	εγώ	PRON	PnPo	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	PTERMP	_	2	punct	_	PunctType=Peri
+
+# sent_id = 777
+# text = Άλλαξε τα φώτα σ τσ' ακαρντάχηδές του .
+1	Άλλαξε	αλλάζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	mwe=1:VID
+2	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	mwe=1
+3	φώτα	φως	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	mwe=1
+4	σ	σε	ADP	AsPpSp	_	6	case	_	_
+5	τσ'	o	DET	VbMn	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ακαρντάχηδές	ακαρντάχης	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	1	obl	_	_
+7	του	εγώ	PRON	PnPo	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod	_	_
+8	.	.	PUNCT	PTERMP	_	1	punct	_	PunctType=Peri
+
+# sent_id = 317
+# text = Έβαλες, μπρε, του διακονιάρη να φάει λαγό;
+1	Έβαλες	βάνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	3	punct	_	PunctType=Comm
+3	μπρε	μπρε	INTJ	AdBa	_	1	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	3	punct	_	PunctType=Comm
+5	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	διακονιάρη	διακονιάρης	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	1	iobj	_	_
+7	να	να	SCONJ	PtSj	_	8	mark	_	_
+8	φάει	τρώγω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	1	xcomp	_	_
+9	λαγό	λαγός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	;	;	PUNCT	PTERM	_	1	punct	_	PunctType=Qest
+
+# sent_id = 1199
+# text = Βασιλιά μου πολυχρονεμένε , χαλάλι σου .
+1	Βασιλιά	βασιλιάς	NOUN	NoPr	Case=Voc|Gender=Masc|Number=Sing	5	vocative	_	_
+2	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	nmod	_	_
+3	πολυχρονεμένε	πολυχρονεμένος	ADJ	VbMn	Case=Voc|Gender=Masc|Number=Sing	1	amod	_	_
+4	,	,	PUNCT	PUNCT	_	1	punct	_	PunctType=Comm
+5	χαλάλι	χαλάλι	ADV	NoCm	_	0	root	_	_
+6	σου	εγώ	PRON	PnPo	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	obl	_	_
+7	.	.	PUNCT	PTERMP	_	5	punct	_	PunctType=Peri
+
+# sent_id = 642_643_split2
+# text = Τη γλύτωσε φτηνά η Μελεμενιά και το 'δεσε κόμπο και πίστεψε πως η μοίρα τζη και το ριζικό τζη ήταν το Σηφαλιό κι ας ήτανε κακαντράκι , αχαμνός και τζίτζινος .
+1	Τη	εγώ	PRON	PnPe	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	mwe=1
+2	γλύτωσε	γλυτώνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	mwe=1:VID
+3	φτηνά	φτηνά	ADV	AdBa	_	2	advmod	_	mwe=1
+4	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Μελεμενιά	Μελεμενιά	PROPN	NoPr	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+6	και	και	CCONJ	CjCo	_	8	cc	_	_
+7	το	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	mwe=1
+8	'δεσε	δένω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	mwe=1:VID
+9	κόμπο	κόμπος	NOUN	AdBa	Case=Acc|Gender=Masc|Number=Sing	8	xcomp	_	mwe=1
+10	και	και	CCONJ	CjCo	_	11	cc	_	_
+11	πίστεψε	πιστεύω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+12	πως	πως	SCONJ	CjSb	_	22	mark	_	_
+13	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	μοίρα	μοίρα	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	11	ccomp	_	_
+15	τζη	τζη	PRON	NoCm	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	_	Voicing=Voiced
+16	και	και	CCONJ	CjCo	_	18	cc	_	_
+17	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+18	ριζικό	ριζικό	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	14	conj	_	_
+19	τζη	τζη	PRON	NoCm	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	nmod	_	Voicing=Voiced
+20	ήταν	είμαι	AUX	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	14	cop	_	_
+21	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
+22	Σηφαλιό	Σήφης	PROPN	NoPr	Case=Nom|Degree=Dim|Gender=Neut|Number=Sing	14	nsubj	_	_
+23	κι	και	CCONJ	CjCo	_	26	cc	_	_
+24	ας	ας	AUX	PtSj	_	26	aux	_	_
+25	ήτανε	είμαι	AUX	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	26	cop	_	_
+26	κακαντράκι	κακαντράκι	NOUN	NoCm	Case=Nom|Degree=Dim|Gender=Neut|Number=Sing	14	conj	_	_
+27	,	,	PUNCT	PUNCT	_	28	punct	_	PunctType=Comm
+28	αχαμνός	αχαμνός	ADJ	AjBa	Case=Nom|Gender=Masc|Number=Sing	26	conj	_	_
+29	και	και	CCONJ	CjCo	_	30	cc	_	_
+30	τζίτζινος	τζίτζινος	ADJ	AjBa	Case=Nom|Gender=Masc|Number=Sing	28	conj	_	_
+31	.	.	PUNCT	PTERMP	_	2	punct	_	PunctType=Peri
+
+# sent_id = 21
+# text = Τα 'βλεπε ο Νικολάρος με το όνομα και χαίρονταν η ψυχή τση ψυχής του.
+1	Τα	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+2	'βλεπε	βλέπω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Νικολάρος	Νικολής	PROPN	NoPr	Case=Nom|Degree=Aug|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	με	με	ADP	AsPpSp	_	7	case	_	_
+6	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	όνομα	όνομα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+8	και	και	CCONJ	CjCo	_	9	cc	_	_
+9	χαίρονταν	χαίρομαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	2	conj	_	_
+10	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ψυχή	ψυχή	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+12	τση	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	ψυχής	ψυχή	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	του	εγώ	PRON	PnPo	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	PTERMP	_	2	punct	_	PunctType=Peri
+
