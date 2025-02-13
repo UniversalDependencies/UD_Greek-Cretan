@@ -3298,7 +3298,7 @@
 19	.	.	PUNCT	PTERMP	_	3	punct	_	PunctType=Peri
 
 # sent_id = 12
-# text = Το μόνο που τ' άφηκε ο αφέης του ήτανε μια σκρόφα.
+# text = Το μόνο που τ' άφηκε ο αφέης του ήτανε μια σκρόφα .
 1	Το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	μόνο	μόνος	DET	AjBa	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	0	root	_	_
 3	που	που	PRON	PnRe	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	5	obj	_	_
@@ -3307,7 +3307,7 @@
 6	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	αφέης	αφέης	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 8	του	εγώ	PRON	PnPo	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nsubj	_	_
-9	ήτανε	είναι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	2	cop	_	_
+9	ήτανε	είμαι	AUX	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	2	cop	_	_
 10	μια	ένας	DET	AtId	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	σκρόφα	σκρόφα	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 12	.	.	PUNCT	PTERMP	_	2	punct	_	PunctType=Peri
@@ -3319,15 +3319,13 @@
 3	θα	θα	AUX	PtFu	Tense=Fut	5	aux	_	_
 4	το	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 5	ξαναπώ	ξαναπτώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	_
-6	«	«	PUNCT	OPUNCT	_	5	punct	_	PunctType=Quot
+6	»	»	PUNCT	OPUNCT	_	5	punct	_	PunctType=Quot
 7	είπε	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	κι	και	CCONJ	CjCo	_	9	cc	_	_
 9	έστριψε	στρίβω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
-10	με	με	ADP	AsPpSp	_	10	case	_	_
+10	με	με	ADP	AsPpSp	_	11	case	_	_
 11	νόημα	νόημα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
 12	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	μουστάκα	μουστάκα	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
 14	ντου	εγώ	PRON	NoCm	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod	_	Voicing=Voiced
 15	.	.	PUNCT	PTERMP	_	7	punct	_	PunctType=Peri
-
-
