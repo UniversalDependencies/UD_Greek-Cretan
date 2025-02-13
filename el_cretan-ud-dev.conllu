@@ -742,7 +742,7 @@
 5	γεμάτη	γεμάτος	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	7	advcl	_	_
 6	λαχτάρα	λαχτάρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
 7	ποκρεμιέται	ποκρεμιέμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-8	μπας	μπας	SCONJ	PtOt	ExtPos=SCONJ	10	mark	_	_
+8	μπας	μπας	PART	PtOt	ExtPos=SCONJ	10	mark	_	_
 9	και	και	CCONJ	CjCo	_	8	fixed	_	_
 10	δει	βλέπω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	advcl	_	_
 11	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -1097,21 +1097,6 @@
 4	κάμω	κάμω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 5	.	.	PUNCT	PTERMP	_	4	punct	_	PunctType=Peri
 
-# sent_id = 106
-# text = Το αδιανόητο είναι πως μου λες να 'ρθω να τηνε θάψω.
-1	Το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
-2	αδιανόητο	αδιανόητος	ADJ	NoPr	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
-3	είναι	είμαι	AUX	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	cop	_	_
-4	πως	πως	SCONJ	CjSb	_	6	mark	_	_
-5	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
-6	λες	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	csubj	_	_
-7	να	να	SCONJ	PtSj	_	8	mark	_	_
-8	'ρθω	έρχομαι	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Pass	6	ccomp	_	_
-9	να	να	SCONJ	PtSj	_	11	mark	_	_
-10	τηνε	εγώ	PRON	PnPe	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	MGloss=her-euphonic|MSeg=την-ε
-11	θάψω	θάβω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	8	advcl	_	SpaceAfter=No
-12	.	.	PUNCT	PTERMP	_	2	punct	_	PunctType=Peri
-
 # sent_id = 121
 # text = Να στραβωθείς άνε σου λέω ψόματα.
 1	Να	να	AUX	PtSj	_	2	aux	_	_
@@ -1246,4 +1231,17 @@
 29	διακονέψουνε	διακονεύγω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	26	ccomp	_	_
 30	»	»	PUNCT	OPUNCT	_	16	punct	_	PunctType=Quot
 31	.	.	PUNCT	PTERMP	_	8	punct	_	PunctType=Peri
+
+# sent_id = 64
+# text = Ηύρηκε ντον να κάθεται σε μια στρουφογυριστή πολυθρόνα.
+1	Hύρηκε	βρίχνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ντον	εγώ	PRON	PnPe	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	Voicing=Voiced
+3	να	να	SCONJ	PtSj	_	4	mark	_	_
+4	κάθεται	κάθομαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	advcl	_	_
+5	σε	σε	ADP	AsPpSp	_	8	case	_	_
+6	μια	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	στρουφογυριστή	στρουφογυριστός	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_
+8	πολυθρόνα	πολυθρόνα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+9	.	.	PUNCT	PTERMP	_	1	punct	_	PunctType=Peri
+
 
