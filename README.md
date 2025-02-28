@@ -17,7 +17,7 @@ We thank Yannis Kazos for his contribution.
 
 ## References
 
-* Socrates Vakirtzian, Vivian Stamou, Yannis Kazos,  Stella Markantonatou. 2024. Dialectal treebanks and their relation with the standard variety: The case of East Cretan and Standard Modern Greek. The Joint 25th Nordic Conference on Computational Linguistics and 11th Baltic Conference on Human Language Technologies (NoDaLiDa/Baltic-HLT 2025), Tallinn (Estonia), March 2–5, 2025.
+Socrates Vakirtzian, Vivian Stamou, Yannis Kazos,  Stella Markantonatou. 2024. Dialectal treebanks and their relation with the standard variety: The case of East Cretan and Standard Modern Greek. The Joint 25th Nordic Conference on Computational Linguistics and 11th Baltic Conference on Human Language Technologies (NoDaLiDa/Baltic-HLT 2025), Tallinn (Estonia), March 2–5, 2025.
 
 
 # Changelog
