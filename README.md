@@ -1,6 +1,6 @@
 # Summary
 
-The text of the treebank was transcribed after training Wisper on Cretan from 9 tapes containing  folklore narratives by one speaker, Ioannis Anagnostakis, who is responsible for their composition. The narratives are radio broadcasts in digital format, with permission from the Audiovisual Department of the Vikelaia Municipal Library of Heraklion, Crete (1998-2001).
+The text of the treebank was transcribed with Wisper (trained on Cretan) from 9 tapes containing  folklore narratives by one speaker, Ioannis Anagnostakis, who is responsible for their composition. The narratives are radio broadcasts in digital format, with permission from the Audiovisual Department of the Vikelaia Municipal Library of Heraklion, Crete (1998-2001).
 The data were split into  training (70%),  dev (10%) and  test (20%) sets. 
 
 
