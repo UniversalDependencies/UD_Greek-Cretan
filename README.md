@@ -1,19 +1,19 @@
 # Summary
 
 The text of the treebank was transcribed with Wisper (trained on Cretan) from 9 tapes containing  folklore narratives by one speaker, Ioannis Anagnostakis, who is responsible for their composition. The narratives are radio broadcasts in digital format, with permission from the Audiovisual Department of the Vikelaia Municipal Library of Heraklion, Crete (1998-2001).
-The data were split into  training (70%),  dev (10%) and  test (20%) sets. 
+The data were split into  training (70%),  dev (10%) and  test (20%) sets.
 
 
 
 
 # Introduction
 
-This is the first treebank for the living (but under resourced) dialect of East Crete. The dialect diverges from Standard Modern Greek at all levels. The treebank is annotated for euphonics and voicing; these phonological phenomena affect the orthography of the dialect. Active annotation was used for knowledge transfer from GUD, a UD treebank of Standard Modern Greek, and the results have been edited manually by a native speaker. 
+This is the first treebank for the living (but under resourced) dialect of East Crete. The dialect diverges from Standard Modern Greek at all levels. The treebank is annotated for euphonics and voicing; these phonological phenomena affect the orthography of the dialect. Active annotation was used for knowledge transfer from GUD, a UD treebank of Standard Modern Greek, and the results have been edited manually by a native speaker.
 
 
 # Acknowledgments
 
-We thank Yannis Kazos for his contribution. 
+We thank Yannis Kazos for his contribution.
 
 ## References
 
@@ -31,13 +31,13 @@ Socrates Vakirtzian, Vivian Stamou, Yannis Kazos,  Stella Markantonatou. 2024. D
 Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: narratives
-Lemmas: active annotation native
-UPOS: active annotation native
-XPOS: active annotation native
-Features: active annotation native
-Relations: active annotation native
-Contributors: Vakirtzian, Socrates; Markantonatou, Stella; Stamou, Vivian;
+Genre: fiction
+Lemmas: manual native
+UPOS: manual native
+XPOS: manual native
+Features: manual native
+Relations: manual native
+Contributors: Vakirtzian, Socrates; Markantonatou, Stella; Stamou, Vivian
 Contributing: here
 Contact: stiliani.markantonatou@gmail.com
 ===============================================================================
