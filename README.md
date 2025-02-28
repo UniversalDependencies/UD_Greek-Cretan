@@ -8,7 +8,7 @@ The data were split into  training (70%),  dev (10%) and  test (20%) sets.
 
 # Introduction
 
-This is the first treebank for the living (but under resourced) dialect of East Crete. The dialect diverges from Standard Modern Greek at all levels. The treebank is annotated for euphonics and voicing; these phonological phenomena affect the orthography of the dialect. 
+This is the first treebank for the living (but under resourced) dialect of East Crete. The dialect diverges from Standard Modern Greek at all levels. The treebank is annotated for euphonics and voicing; these phonological phenomena affect the orthography of the dialect. Active annotation was used for knowledge transfer from GUD, a UD treebank of Standard Modern Greek, and the results have been edited manually by a native speaker. 
 
 
 # Acknowledgments
