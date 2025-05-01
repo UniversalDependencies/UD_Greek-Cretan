@@ -28,7 +28,7 @@ Socrates Vakirtzian, Vivian Stamou, Yannis Kazos,  Stella Markantonatou. 2024. D
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.14
+Data available since: UD v2.16
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: fiction
