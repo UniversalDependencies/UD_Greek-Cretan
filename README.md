@@ -1,14 +1,12 @@
 # Summary
 
-The text of the treebank was transcribed with Wisper (trained on Cretan) from 9 tapes containing  folklore narratives by one speaker, Ioannis Anagnostakis, who is responsible for their composition. The narratives are radio broadcasts in digital format, with permission from the Audiovisual Department of the Vikelaia Municipal Library of Heraklion, Crete (1998-2001).
+The text of the treebank was drawn from 81 minutes of radio broadcasts recorded between 1998 and 2001, which were manually transcribed and validated in collaboration with a linguist who is also a native speaker of the dialect.
 The data were split into  training (70%),  dev (10%) and  test (20%) sets.
-
-
 
 
 # Introduction
 
-This is the first treebank for the living (but under resourced) dialect of East Crete. The dialect diverges from Standard Modern Greek at all levels. The treebank is annotated for euphonics and voicing; these phonological phenomena affect the orthography of the dialect. Active annotation was used for knowledge transfer from GUD, a UD treebank of Standard Modern Greek, and the results have been edited manually by a native speaker.
+This is the first treebank for the living (but under-resourced) dialect of East Crete. The dialect diverges from Standard Modern Greek at all levels. The treebank is annotated for euphonics and voicing; these phonological phenomena affect the orthography of the dialect. Active annotation was used for knowledge transfer from GUD, a UD treebank of Standard Modern Greek, and the results have been edited manually by a native speaker.
 
 
 # Acknowledgments
