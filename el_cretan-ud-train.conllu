@@ -2792,7 +2792,7 @@
 7	με	με	ADP	AsPpSp	_	8	case	_	_
 8	νάζι	νάζι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	_
 9	,	,	PUNCT	PUNCT	_	11	punct	_	PunctType=Comm
-10	τηνε	εγώ	PRON	PnPe	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	MGloss=her-euphonic|MSeg=την-ε
+10	τηνε	εγώ	PRON	PnPe	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	expl	_	MGloss=her-euphonic|MSeg=την-ε
 11	τρέμουν	τρέμω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
 12	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	γριά	γριά	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
