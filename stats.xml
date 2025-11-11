@@ -105,7 +105,7 @@
     <dep name="det">597</dep>
     <dep name="discourse">37</dep>
     <dep name="dislocated">2</dep>
-    <dep name="expl">13</dep>
+    <dep name="expl">14</dep>
     <dep name="fixed">37</dep>
     <dep name="flat">2</dep>
     <dep name="iobj">52</dep>
@@ -113,7 +113,7 @@
     <dep name="nmod">207</dep>
     <dep name="nsubj">259</dep>
     <dep name="nummod">15</dep>
-    <dep name="obj">351</dep>
+    <dep name="obj">350</dep>
     <dep name="obl">178</dep>
     <dep name="orphan">6</dep>
     <dep name="parataxis">38</dep>
