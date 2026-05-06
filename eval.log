@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Greek-Cretan:
-commit 64c877e190038406658c210324acb5cd67ed35a6
-Merge: 1fe668a 0502a89
+commit 5edbaed610711d8d98ba69c99e39488ef14f3210
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 19:38:14 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'el_cretan'
 Language code (from CoNLL-U file name) = 'el'
@@ -25,26 +25,28 @@ Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang el --max-err=10 UD_Greek-Cretan/el_cretan-ud-dev.conllu
-[Line 385 Sent 561]: [L3 Warning pron-det-without-prontype] The word 'τα' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 685 Sent 204]: [L3 Warning pron-det-without-prontype] The word 'τόσηνα' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 385 Sent 561]: [L3 WARNING pron-det-without-prontype] The word 'τα' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 685 Sent 204]: [L3 WARNING pron-det-without-prontype] The word 'τόσηνα' is tagged 'PRON' but it lacks the 'PronType' feature
 Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang el --max-err=10 UD_Greek-Cretan/el_cretan-ud-test.conllu
-[Line 265 Sent 1329]: [L3 Warning pron-det-without-prontype] The word 'τ'' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 311 Sent 1329]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 265 Sent 1329]: [L3 WARNING pron-det-without-prontype] The word 'τ'' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 311 Sent 1329]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
 Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang el --max-err=10 UD_Greek-Cretan/el_cretan-ud-train.conllu
-[Line 47 Sent 654]: [L3 Warning pron-det-without-prontype] The word 'Το' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 977 Sent 391_392]: [L3 Warning verbform-fin-without-mood] Finite verb 'μολάρω' lacks the 'Mood' feature
-[Line 1377 Sent 50]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'Καλόγεννη') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1788 Sent 1273]: [L3 Warning pron-det-without-prontype] The word 'το' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1885 Sent 1334]: [L3 Warning obl-should-be-nmod] The parent (node [16] 'πουκαμισάκι') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 2398 Sent 667]: [L3 Warning pron-det-without-prontype] The word 'τα' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 3022 Sent 759]: [L3 Warning verbform-fin-without-mood] Finite verb 'θες' lacks the 'Mood' feature
-Warnings: 7
-*** PASSED ***
-Validity: 1
+[Line 47 Sent 654]: [L3 WARNING pron-det-without-prontype] The word 'Το' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 977 Sent 391_392]: [L3 WARNING verbform-fin-without-mood] Finite verb 'μολάρω' lacks the 'Mood' feature
+[Line 1377 Sent 50]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'Καλόγεννη') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1788 Sent 1273]: [L3 WARNING pron-det-without-prontype] The word 'το' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1885 Sent 1334]: [L3 SYNTAX obl-should-be-nmod] The parent (node [16] 'πουκαμισάκι') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2398 Sent 667]: [L3 WARNING pron-det-without-prontype] The word 'τα' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3022 Sent 759]: [L3 WARNING verbform-fin-without-mood] Finite verb 'θες' lacks the 'Mood' feature
+Warnings: 5
+SYNTAX errors: 2
+*** FAILED *** with 2 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
@@ -52,6 +54,6 @@ Validity: 1
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
 (weight=0.111111111111111) * (score{udeprels}=0.864864864864865) = 0.0960960960960961
-(TOTAL score=0.502109272682706) * (availability=1) * (validity=1) = 0.502109272682706
-STARS = 2.5
-UD_Greek-Cretan	0.502109272682706	2.5
+(TOTAL score=0.502109272682706) * (availability=1) * (validity=0.01) = 0.00502109272682706
+STARS = 0
+UD_Greek-Cretan	0.00502109272682706	0
