@@ -1374,7 +1374,7 @@
 
 # sent_id = 50
 # text = Σ την Καλόγεννη διαφορά ο Νικολάρος μας δεν είδενε .
-1	Σ	σε	ADP	AsPpSp	_	3	obl	_	_
+1	Σ	σε	ADP	AsPpSp	_	3	case	_	_
 2	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Καλόγεννη	Καλόγεννη	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 4	διαφορά	διαφορά	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
@@ -1761,7 +1761,7 @@
 4	,	,	PUNCT	PUNCT	_	5	punct	_	PunctType=Comm
 5	θεια	θεία	NOUN	NoCm	Case=Voc|Gender=Fem|Number=Sing	2	vocative	_	_
 6	,	,	PUNCT	PUNCT	_	5	punct	_	PunctType=Comm
-7	οριά	οριά	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+7	οριά	οριά	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
 8	;	;	PUNCT	PTERM	_	2	punct	_	PunctType=Qest
 
 # sent_id = 621
@@ -1879,10 +1879,10 @@
 11	τσιμπλιασμένα	τσιμπλιασμένος	ADJ	VbMnPp	Case=Nom|Gender=Neut|Number=Plur	7	conj	_	_
 12	,	,	PUNCT	PUNCT	_	16	punct	_	PunctType=Comm
 13	με	με	ADP	AsPpSp	_	16	case	_	_
-14	ένα	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+14	ένα	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
 15	τσίτινο	τσίτινος	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Sing	16	amod	_	_
 16	πουκαμισάκι	πουκάμισο	NOUN	NoCm	Case=Acc|Degree=Dim|Gender=Neut|Number=Sing	1	obl	_	_
-17	χειμώνα	χειμώνας	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
+17	χειμώνα	χειμώνας	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_
 18	καλοκαίρι	καλοκαίρι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	17	compound	_	_
 19	,	,	PUNCT	PUNCT	_	21	punct	_	PunctType=Comm
 20	να	να	AUX	PtSj	_	21	aux	_	_

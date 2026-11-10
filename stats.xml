@@ -55,8 +55,8 @@
     <feat name="Gender" value="Neut" upos="ADJ,DET,INTJ,NOUN,NUM,PRON,PROPN,VERB">568</feat><!-- το, τα, τ', είντα, σπίτι, ό,τι, που, χρόνια, ένα, νερό -->
     <feat name="Mood" value="Imp" upos="VERB">31</feat><!-- γιάε, Άσε, Πες, έλα, ακλούθα, βάλε, βάστα, δώσ', λέγε, Φύγε -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">682</feat><!-- είναι, κάνει, είπε, λέει, ήτανε, είχε, ήτονε, λέω, πήγε, ήκανε -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">589</feat><!-- τα, μας, τσοι, οι, τσι, ντως, τσ', τ', χρόνια, άλλα -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,INTJ,NOUN,PRON,PROPN,VERB">2086</feat><!-- το, ο, του, η, την, μου, ντου, τη, τον, τηνε -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">588</feat><!-- τα, μας, τσοι, οι, τσι, ντως, τσ', τ', χρόνια, άλλα -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,INTJ,NOUN,PRON,PROPN,VERB">2087</feat><!-- το, ο, του, η, την, μου, ντου, τη, τον, τηνε -->
     <feat name="NumType" value="Card" upos="NUM">25</feat><!-- δυο, πέντε, σαράντα, τρεις, Εκατό, δεκαεφτά, διακόσιους, δύο, είκοσι, εκατόν -->
     <feat name="NumType" value="Ord" upos="ADJ">1</feat><!-- πρώτος -->
     <feat name="NumType" value="Sets" upos="NOUN">1</feat><!-- κοσσαριά -->
@@ -94,7 +94,7 @@
     <dep name="amod">45</dep>
     <dep name="appos">20</dep>
     <dep name="aux">76</dep>
-    <dep name="case">141</dep>
+    <dep name="case">142</dep>
     <dep name="cc">313</dep>
     <dep name="ccomp">87</dep>
     <dep name="compound">18</dep>
@@ -114,7 +114,7 @@
     <dep name="nsubj">259</dep>
     <dep name="nummod">15</dep>
     <dep name="obj">350</dep>
-    <dep name="obl">178</dep>
+    <dep name="obl">177</dep>
     <dep name="orphan">6</dep>
     <dep name="parataxis">38</dep>
     <dep name="punct">718</dep>
